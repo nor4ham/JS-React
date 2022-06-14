@@ -17,7 +17,7 @@ You are here because you want to learn the skills needed to become a world-class
 - Integrate Back End (Python) with the web applications (JS/React) 
 
 # Important links 
- [Class Slack](https://tuwaiq-academy.slack.com/archives/C02GZR3TQCT)
+ [Class Slack]()
 
 [comment]:< - [Exit Ticket](https://forms.gle/ADqxd3eMLFjQ32Xk6) (complete at the end of Thursday class each week)>
 
@@ -25,20 +25,19 @@ You are here because you want to learn the skills needed to become a world-class
 - **Assad Mehmood** (Lead Instructor)
 - **Masha Aldosary** (Junior Lead Instructor)
 
-## Outcomes of the bootcamp
+## Outcomes of the Front-End part of the bootcamp
 
-- Learn HTML, CSS, JavaScript, MongoDB, Express, React, Node.js, Next.js. 
+- Learn HTML, CSS, JavaScript, React JS, introduction to Node.js. 
 - Develop and design dynamic web applications using various technology stacks.
 - Apply agile development and product design principles to web development projects. 
-- Understand crucial software algorithms and their application to web development.
 - Create databases and data-driven web applications.
 - Become job-ready with our career support team that guides and prepares you for the tech career you’re aiming for.
 
 ## Schedule
 
-### Course Information
+### Front-End Part Course Information
 
-- Course duration: Sunday, Oct 10th, 2021 - Thursday, Dec 30th, 2021
+- Course duration: Sunday, June 19th, 2022 - Thursday, July 7th, 2022
 - Class schedule: Sunday - Thursday : 9am - 5pm
 
 <br>
@@ -55,7 +54,7 @@ Lesson Support / Homework  | 4:00pm - 5:00pm   | 60 minutes
 | -- | -- | --
 First break | 10:50am - 11:00am  | 10 - Minutes
 Lunch break | 12:00pm - 1:00pm      | 60 - Minutes
-Asr   break | 3:00pm - 3:15pm   | 15 - Minutes
+Asr   break | 3:15pm - 3:30pm   | 15 - Minutes
 
 ### Note:
 - Break time and duration may change
@@ -85,26 +84,17 @@ The bootcamp helps you progress from learning the basics of web development to b
 
 | Week  | Topics |
 | ----- | ------ |
-| 1  | HTML, CSS, Responsive, JavaScript    |
-| 2  | JCommand Line, Git, JavaScript, Bootstrap, JQuery, JSON, API, ES6, Async  |
-| 3  | Project 1  |
+| 1  | HTML, CSS, Responsive Design, Bootstrap, JavaScript, JSON, APIs, ES6, Async Await, Promises  |
+|  1 | Project 1  |
 
 ### Unit 2 (Web Development with React and Express)
 | Week  | Topics |
 | ----- | ------ |
-| 4 |   React, components, props, state, application deployment |
-| 5 |   React router, React + API, Testing React Application, Node.js, Express Framework I |
-| 6 |   Express Framework II, Full stack Applications with Express and React, Deploy full stack applications|
-|7|  Project 2 |
+| 2 |  Web Development Approaches,  Introduction to React, Components, Props, States, Events, Routing  |
+| 3 |   Components Life Cycle methods, Hooks, Fetching data using APIs in React Apps, Managing states using Redux, application deployment Node.js|
+|3|  Project 2 |
+|4|   Final Project|
 
-### Unit 3 (Full Stack Web Developer)
-| Week  | Topics |
-| ----- | ------ |
-|8|   Agile Development, Web Development Approaches, Databases, MongoDB, Database Interaction, Authentication with JWT, Authentication with Express|
-|9|   Next.js I, Next.js II, Next.js III |
-|10|   Project 3 |
-|11| Selected Topics, Final Project   |
-|12|   Final Project|
 ### Course Curriculum
 
 <table>
@@ -113,67 +103,34 @@ The bootcamp helps you progress from learning the basics of web development to b
   </thead>
   <tbody>
     <tr>
-      <td rowspan="3">Fundamentals of Front-end Development</td>
+      <td >Fundamentals of Front-end Development</td>
       <td align="center">1</td>
-      <td><br>Command line, Git and Github<br>HTML & CSS<br>Fundamentals of JavaScript<br>DOM Manipulation & Events</td>
-      <td rowspan="3">Online Store</td>
+      <td><br>HTML & CSS, Bootstrap<br>Fundamentals of JavaScript<br>DOM Manipulation & Events<br> Callback functions, Classes, this Keyword, Array Iterator Methods, AJAX and REST API Fundamentals, JSON ES6, Promise, async/await</td>
+      <td >Static Web Application</td>
     </tr>
     <tr>
+      <td rowspan="2">Web Development with React</td>
       <td align="center">2</td>
-      <td>JS: Callback functions, Classes, this Keyword, Array Iterator MethodsBootstrap, JQuery, AJAX and REST API Fundamentals, JSON ES6, Promise, async/await</td>
+      <td><br>Full stack application development with Python and React<br> Node.js <br>React fundamentals, components, State & Props, Event Handling, Client Side Routing (React Router)</td>
+      <td rowspan="2">React Application</td>
     </tr>
     <tr>
       <td align="center">3</td>
-      <td>Project Week </td>
-    </tr>
-    <tr>
-      <td rowspan="4">Web Development with React and Express</td>
-      <td align="center">4</td>
-      <td>React fundamentals, components, State & Props</td>
-      <td rowspan="4">React Application</td>
-    </tr>
-    <tr>
-      <td align="center">5</td>
-      <td>Client Side Routing (React Router)<br>API with React<br>Token-based Authentication (React)
-      <br> Node.js <br> Express Famework I 
+      <td>Life Cycle Methods, Hooks, <br>API with React - Fetching Data, <br> Managing States using Redux, <br> Application Deployment
       </td>
     </tr>
     <tr>
-      <td align="center">6</td>
-      <td>Express Framework II<br>Full stack application development with Express and React<br>Deploy full stack applications</td>
-    </tr>
-    <tr>
-      <td align="center">7</td>
-      <td>Project 2</td>
-    </tr>
-    <tr>
-      <td rowspan="5">Full Stack Web Development</td>
-      <td align="center">8</td>
-      <td>Agile Development, Web Development Approaches, Databases, MongoDB, Database Interaction, Authentication with JWT, Authentication with Express</td>
-      <td rowspan="5">MERN Application</td>
-    </tr>
-    <tr>
-      <td align="center">9</td>
-      <td>Next.js I, Next.js II, Next.js III</td>
-    </tr>
-    <tr>
-      <td align="center">10</td>
-      <td>Deployment<br>Project 3</td>
-    </tr>
-    <tr>
-      <td align="center">11</td>
-      <td>SQL, MYSQL, Other Selected Topics<br> Final Project</td>
-    </tr>
-    <tr>
-      <td align="center">12</td>
-      <td>Deployment<br>Final Project</td>
+      <td >Final Project </td>
+      <td align="center">4</td>
+      <td>Full Stack Web Application</td>
+      <td rowspan="5">Python/React Application</td>
     </tr>
   </tbody>
 </table>
 
 ## Note:
-* There will be initially 3 projects and a final capstone project
-* The final project is done in the last two weeks and is mandatory
+* There will be initially 2 projects and a final capstone project
+* The final project is done in the last week and is mandatory
 * The other projects number, time and duration may change
 
 ## Materials
