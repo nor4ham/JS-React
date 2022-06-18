@@ -2,10 +2,10 @@
 
 
 
-# Tuwaiq Python Bootcamp - JavaScript React   
+# Tuwaiq Python Bootcamp - JavaScript React (Frontend)    
 
 # General
-Hi folks, Welcome to FrontEnd i.e. JavaScript/React JS part of the  Bottcamp. This repository contains information, HW,  Assignments, Project(s) and Materials specific to this part of the camp.
+Hi folks, Welcome to FrontEnd i.e. JavaScript/React JS part of the Python/React Bottcamp. This repository contains information, HW,  Assignments, Project(s) and Materials specific to this part of the camp.
 
 
 You are here because you want to learn the skills needed to become a world-class web developer. Or perhaps you're coding already, and want to take your career to the next level. This bootcamp equips you owith the skills needed to build dynamic data-driven and career-boosting web applications using most cutting edge and popular web development tools and technologies, including:
@@ -49,6 +49,8 @@ First Lab| 11:00am - 12:00pm   |   60 minutes
 Second Lesson  | 1:00pm - 3:00pm  | 120 - minutes
 Second Lab |   3:15pm - 4:00pm | 50 - minutes
 Lesson Support / Homework  | 4:00pm - 5:00pm   | 60 minutes  
+
+<br>
 
 | | Breaks | |
 | -- | -- | --
@@ -111,7 +113,7 @@ The bootcamp helps you progress from learning the basics of web development to b
     <tr>
       <td rowspan="2">Web Development with React</td>
       <td align="center">2</td>
-      <td><br>Full stack application development with Python and React<br> Node.js <br>React fundamentals, components, State & Props, Event Handling, Client Side Routing (React Router)</td>
+      <td>Web Development Approaches<br>Introduction to Full stack application development<br> Node.js <br>React fundamentals, components, State & Props, Event Handling, Client Side Routing (React Router)</td>
       <td rowspan="2">React Application</td>
     </tr>
     <tr>

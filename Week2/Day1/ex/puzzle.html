@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <style>
+        .noselect {
+            -webkit-touch-callout: none;
+            /* iOS Safari */
+            -webkit-user-select: none;
+            /* Safari */
+            -khtml-user-select: none;
+            /* Konqueror HTML */
+            -moz-user-select: none;
+            /* Old versions of Firefox */
+            -ms-user-select: none;
+            /* Internet Explorer/Edge */
+            user-select: none;
+            /* Non-prefixed version, currently
+                                            supported by Chrome, Edge, Opera and Firefox */
+        }
+
+        #puzzule {
+            border: 2px solid rgb(82, 78, 78);
+            width: 250px;
+            height: 250px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .item {
+            border: 2px solid rgb(172, 40, 40);
+            height: 50px;
+            width: 50px;
+            float: left;
+            margin: 5px;
+            text-align: center;
+            line-height: 50px;
+            background-color: pink;
+        }
+    </style>
+    <div id="puzzule" class="noselect" style="margin-top:50px; ">
+
+    </div>
+    <button id="shuffle">shuffle</button>
+    <script>
+        let board = [];
+        let emptysquer = { x: 3, y: 3 };
+        let emptyDiv = "div15";
+        for (i = 0; i < 4; i++) {
+            for (j = 0; j < 4; j++) {
+                let item = {};
+                item.x = i;
+                item.y = j;
+                board.push(item);
+            }
+        }
+        console.log(board)
+        for (let i = 0; i < 15; i++) {
+            const element = `<div id="div${i}" data-pos="${i}" class=" item">${i + 1}</div>`
+            document.querySelector("#puzzule").innerHTML += element
+        }
+        document.querySelector('#puzzule').innerHTML += '<div id="div15" data-pos="15" class=" item"></div>'
+        // <div id="div14" data-pos="14" class=" item">15</div>
+
+
+
+
+
+        $(".item").hover(function () {
+            $(this).css("background-color", "yellow");
+        },
+            function () {
+                $(this).css("background-color", "pink");
+            });
+
+        console.log(board);
+        $(".item").click(function () {
+            let myItem = board[$(this).data("pos")];
+
+            if (Math.abs(myItem.x - emptysquer.x) <= 1
+                && Math.abs(myItem.y - emptysquer.y) <= 1
+                && (myItem.x == emptysquer.x || myItem.y == emptysquer.y)
+            ) {
+                $("#" + emptyDiv).text($(this).text());
+                $(this).text("");
+                emptysquer.x = myItem.x;
+                emptysquer.y = myItem.y;
+                emptyDiv = $(this).attr("id");
+                console.log("can move");
+            }
+            else {
+                console.log("can't");
+            }
+        });
+
+
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+        }
+
+
+        document.querySelector("#shuffle").addEventListener("click", function (e) {
+            console.log(board)
+            const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, '']
+            shuffleArray(array)
+            const emptyIndex = array.findIndex(el => el === "")
+            const itemsArray = document.querySelectorAll(".item")
+            emptysquer.x = emptyIndex % 4
+            emptysquer.y = Math.floor(emptyIndex / 4)
+            emptyDiv = "div" + emptyIndex
+
+            for (let i = 0; i < itemsArray.length; i++) {
+                itemsArray[i].innerHTML = array[i]
+            }
+
+        })
+
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
