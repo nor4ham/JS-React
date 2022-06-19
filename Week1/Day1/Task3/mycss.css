@@ -1,0 +1,30 @@
+/* Notice how to add a comment in CSS */
+body {
+    background-image:url("horse2.jpeg");;
+    /*This style rule will make the 
+        background colour of the <body> element light-grey.
+         For a more information about what colours are available to you for 
+        styling your page see here: https://developer.mozilla.org/en-US/docs/Web/CSS/color_value */
+}
+
+p {
+    color: red;
+    font-family: Arial, Helvetica;
+    text-align: justify;
+    /* See more about styling text here: https://developer.mozilla.org/en-US/docs/Web/CSS/text-align */
+}
+
+img {
+    margin: auto;
+    display: block;
+    /*This rule will center the image on the page. Centering things with CSS
+        can be more challenging than you may imagine. Fortunately the W3C (The World Wide Web Consortium)
+have prepared a cheat sheet to help with this. Check it out here:  https://www.w3.org/Style/Examples/007/center.en.html */
+}
+
+.form{
+background-color:white;
+}
+.img{
+background-color:white;
+}

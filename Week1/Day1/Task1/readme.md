@@ -12,6 +12,7 @@ Follow these steps:
 you would like to be able to do by the end of this Bootcamp.]
 - Each of these headings should have two subheadings of type h2 (total of
 four). List two items for your hobbies and goals respectively.
+
 - Within these subheadings, create two paragraphs per h2 heading. In each of these paragraphs, mention something about the topic you’re speaking about. You don’t need to make this too long — a sentence is fine (unlessyou’re feeling very creative!).
 - Be sure to use italics and bold text in your page — you can choose where.
 
